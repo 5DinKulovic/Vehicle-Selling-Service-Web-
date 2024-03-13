@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    font-family: "Inter";
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20px;
+
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.nav-elements a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-family: "Inter";
+    padding: 14px 20px;
+    background-color: inherit;
+
+    margin: 0;
+}
+
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-part a {
+    text-decoration: none;
+    color: black;
+}
+
+.first-section {
+    padding-bottom: 70px;
+}
+
+.main-container {
+
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.container {
+    max-width: 1150px;
+    width: 100%;
+    padding: 0 40px;
+
+}
+
+.selection-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+
+}
+
+.selection-title h1 {
+    font-size: 44px;
+}
+
+.selections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 10px;
+}
+
+
+
+/* CSS */
+.offers-button button {
+    align-items: center;
+    background: linear-gradient(111.72deg, #3E47DD 14.24%, #262A98 85.76%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.offers-button:hover,
+.offers-button:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.offers-button:hover {
+    transform: translateY(-1px);
+}
+
+.offers-button:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.rating img {
+    max-width: 140px;
+
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.main-footer-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #edf1f8;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.second-section {
+    margin-top: 50px;
+}
+
+.second-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second-section-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.second-section-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second-section-box img {
+    width: 350px;
+}
+
+.want-more {
+    background-color: #3E47DD;
+    font-size: 18px;
+    padding: 10px 32px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

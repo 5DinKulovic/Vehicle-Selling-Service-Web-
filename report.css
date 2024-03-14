@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.logo-container img {
+    max-width: 80px;
+    width: 100%;
+    max-height: 80px;
+    height: 100%;
+}
+
+.navbar-num {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-elements a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.main {
+    border-top: solid black 1px;
+}
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-container-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/report-background.png);
+    background-size: cover;
+    color: white;
+    width: 85%;
+    padding: 85px 20px;
+}
+
+.main-text {
+    flex: 1;
+    font-size: 16px;
+    padding-left: 40px;
+    display: flex;
+
+}
+
+.main-text span {
+    font-size: 39px;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+
+}
+
+.main-input {
+    flex: 1;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    max-width: 403px;
+    width: 100%;
+    padding: 24px;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.main-input input {
+    padding: 8px 15px;
+    font-size: 18px;
+    width: 100%;
+}
+
+#submit-button {
+    border-radius: 20px;
+    border: none;
+    width: 80%;
+}
+
+
+.report-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.report-title {
+    text-align: center;
+}
+
+.report-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+
+}
+
+.report-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
